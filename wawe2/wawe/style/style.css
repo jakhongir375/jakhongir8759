@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #F8F8F8;
 }
 .wawe {
     background-image: url(../img/wawe-new.jpg);
@@ -132,4 +133,148 @@ margin: 50px auto;
 padding-top: 23px;
 padding-bottom: 23px;
 display: block;
+margin-bottom: 150px;
+}
+
+q {
+    text-align: center;
+font-size: 36px;
+font-style: italic;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
+margin-right: 300px;
+
+}
+
+.autor {
+font-size: 14px;
+font-style: italic;
+font-weight: 300;
+line-height: 18px;
+text-align: left;
+margin-left: 800px;
+margin-bottom: 200px;
+}
+
+.q {
+text-align: right;
+}
+
+.video {
+    margin-bottom: 200px;
+}
+
+h1 {
+    font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+}
+.apap {
+   display: flex;
+   justify-content: center;
+   gap: 75px;
+   margin-bottom: 200px;
+}
+p {
+    text-align: center;
+}
+.bon {
+ color: #01353E;
+font-size: 48px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+text-align: center;
+margin-bottom: 200px;
+}
+
+.people {
+    color: #01353E;
+font-size: 48px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+text-align: center;
+margin-bottom: 200px;
+}
+.teachers {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.teachers h2 {
+    color: #242121;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+margin-bottom: 10px;
+margin-top: 20px;
+text-align: center;
+}
+.pak {
+color: #01353E;
+font-size: 48px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+margin-bottom: 200px;
+text-align: center;
+}
+
+.card {
+width: 360px;
+height: 577px;
+background: #FFFFFF;
+}
+h3 {
+color: #01353E;
+font-size: 36px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0px;
+text-align: left;
+padding-top: 40px;
+padding-bottom: 70px;
+text-align: center;
+}
+.cards h3 span {
+color: #01353E;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.card p {
+color: #242121;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+padding-bottom: 200px;
+padding-left: 40px;
+
+}
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.paketi {
+    margin-bottom: 300px;
+}
+.map {
+    margin-bottom: 300px;
 }
