@@ -1,0 +1,56 @@
+.all__wrap {
+    margin: 0px 200px;
+}
+
+
+.button2 {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #18181a;
+    color: #18181a;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 140px 156px 146px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+   }
+   
+   .button2:hover{
+    background:  #fffdfd url("../img/visual.png") no-repeat right top;
+    padding: 145px 174px 141px;
+    font-size: 1px;
+   }
+
+   .button2Hover:hover{
+    background:  #ffffff url("../img/audio.png") no-repeat right top;
+
+    font-size: 1px;
+}
+
+.button2t:hover{
+    background:  #ffffff url("../img/fun.png") no-repeat right top;
+    font-size: 1px;
+    background-size: cover;
+}
+
+.button2m:hover{
+    background:  #ffffff url("../img/mixed.png") no-repeat right top;
+    font-size: 1px;
+    
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+ 
+}
+.card {
+}
