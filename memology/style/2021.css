@@ -90,20 +90,24 @@ box-shadow: 0.05em 0.05em;
   padding-left: 20px;
 
 }
-/* head */
+/* head end*/
 h2 {
-  margin-left: 25px;
+  margin-left: 10px;
   margin-top: 100px;
+  font-size: 44px;
+}
+h3 {
+  margin-left: 10px;
+  margin-top: 50px;
   font-size: 44px;
 }
 .card {
   max-width: 1200px;
   position: relative;
-  /* border: 1px solid black; */
   cursor: pointer;
   border-radius: 20px;
   margin: 25px 10px;
-  height:400px  ;
+  height:401px  ;
   width: 280px;
 
   img {
@@ -120,13 +124,11 @@ h2 {
     backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 20px;
-    /* border: 1px solid rgba(255, 255, 255, 0.18); */
     padding: 10px;
     width: 100%;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
-    -webkit-box-shadow: inset 10px 10px 10px 6px #262626;
-    box-shadow: inset 10px 10px 10px 6px #262626;
+    box-shadow: 95px 136px 41px -110px rgba(0,0,0,1) inset;
   }
 
   &:hover {
@@ -143,3 +145,4 @@ h2 {
   flex-wrap: wrap;
 
 }
+   
