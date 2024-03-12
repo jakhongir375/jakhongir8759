@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(217, 236, 233, 0.762);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+    margin-bottom: 100px;
+}
+.cont {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero__wrap {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.hero__box {
+
+i {
+    color: rgb(71, 255, 68);
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+}
+.hero__img {
+    max-width: 700px;
+    clip-path: polygon(16% 0, 92% 20%, 100% 100%, 0 89%);
+
+}
+
+
+.cards {
+    margin-bottom: 100px;
+    background-color: #fff;
+}
+.card__title {
+    font-size: 60px;
+}
+.card__saptitle {
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.card__wrap {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+.card {
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+
+    
+}
+.cards__img {
+    width: 400px;
+    height: 260px;
+    padding-bottom: 20px;
+
+}
+.cards__link {
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+.cards__text {
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.cards__box {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+   
+}
+.cards__price {
+    font-style: 20px;
+    
+}
+.btn {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 6px 30px;
+
+}
+
+.btn2 {
+    background-color: #fff;
+    border: 1px solid red;
+    color: red;
+    font-size: 15px;
+    padding: 10px 35px;
+    border-radius: 5px;
+   margin-left: 580px;
+   margin-top: 100px;
+}
