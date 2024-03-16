@@ -2,73 +2,71 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: url(./memeahahha.png),pointer;
-    cursor: url(./memexaxa.png),cell;
+    cursor: url(./memeahahha.png), cell;
 }
 body {
-    background-color: #b626b6;
-    color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.616);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #81667a;
 }
 
 .container {
      max-width: 1200px;
      width: 100%;
      margin: 0 auto;
-    
+   
 }
 
 header {
     margin-bottom: 50px;
-
+  
 }
 .header__wrap {
     display: flex;
     justify-content: center;
-    background-color: #7c1974;
+    /* background-color: #7c1974; */
     /* border: 5px solid rgb(0, 0, 0); */
     border-radius:20px;
     align-items: center;
     padding: 20px 10px;
-    -webkit-box-shadow: 30px 30px 23px 3px #2E272A;
+    /* -webkit-box-shadow: 30px 30px 23px 3px #2E272A;
     box-shadow: 30px 30px 23px 3px #1d181a;
 
 
     
     background: #7c1974;
     box-shadow: 15px 15px 30px rgb(0, 0, 0),
-                -15px -15px 30px rgb(60, 60, 60);
+                -15px -15px 30px rgb(60, 60, 60); */
 }
 .header__link {
     text-decoration: none;
     margin-right: 20px;
     /* border: 5px solid black; */
     border-radius: 10px;
-    background-color: #1f47fb;
+    background-color: #92b4a7;
     padding: 10px 10px;
-    color: black;
-
-    background: #1f47fb;
-    box-shadow: 0.1em 0.1em;
+    color: rgba(255, 255, 255, 0.616);
+    /* background: #92b4a7;
+    box-shadow: 0.1em 0.1em ; */
+    cursor: url(./memexaxa.png), pointer;
 }
 .header__link2 {
     text-decoration: none;
     margin-right: 20px;
     /* border: 5px solid black; */
     border-radius: 10px;
-    background-color:#fbff00;
+    background-color:#b6cb9e;
     padding: 10px 10px;
-    color: black;
+    color: rgba(255, 255, 255, 0.616);
 
-
-    background: #fbff00;
-    box-shadow: 0.1em 0.1em;
-    
+    /* background: #b6cb9e;
+    box-shadow: 0.1em 0.1em; */
+    cursor: url(./memexaxa.png), pointer;
 }
 
 .header__link:hover {
   transform: translate(-0.05em, -0.05em);
-  box-shadow: 0.15em 0.15em;
+  box-shadow: 0.15em 0.15em ;
 }
 
 .header__link:active {
@@ -98,17 +96,19 @@ header {
   align-items: center;
   margin-top: 50px;
   border-radius: 20px;
-  background-color: #fbff00;
+  gap: 30px;
+  /* background-color: #fbff00; */
   padding: 40px 30px;
   margin-bottom: 50px;
-  border-radius: 50px;
-  border-radius: 37px;
-  -webkit-box-shadow: 30px 30px 23px 3px #2E272A;
+  
+  /* border-radius: 50px; */
+  /* border-radius: 37px; */
+  /* -webkit-box-shadow: 30px 30px 23px 3px #2E272A;
   box-shadow: 30px 30px 23px 3px #1d181a;
 
   background: #fbff00;
   box-shadow: 15px 15px 30px rgb(0, 0, 0),
-              -15px -15px 30px rgb(60, 60, 60);
+              -15px -15px 30px rgb(60, 60, 60); */
 }
 .box {
 max-width: 350px;      
@@ -117,20 +117,56 @@ img {
   height: auto;
 }
 }
+
+.welcome__box {
+  h1 {
+    font-size: 95px;
+  }
+  p {
+    font-size: 30px;
+    
+  }
+}
 .card {
     border-radius: 20px;
-    background-color: #fbff00;
+    /* background-color: #fbff00; */
     padding: 40px 30px;
     margin-bottom: 50px;
     border-radius: 50px;
     border-radius: 37px;
-    -webkit-box-shadow: 30px 30px 23px 3px #2E272A;
-    box-shadow: 30px 30px 23px 3px #1d181a;
+    h3 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 30px;
+    }
+    /* -webkit-box-shadow: 30px 30px 23px 3px #2E272A;
+    box-shadow: 30px 30px 23px 3px #1d181a; */
 
-    background: #fbff00;
+    /* background: #fbff00;
     box-shadow: 15px 15px 30px rgb(0, 0, 0),
-                -15px -15px 30px rgb(60, 60, 60);
+                -15px -15px 30px rgb(60, 60, 60); */
 
+}
+.card2 {  
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-bottom: 100px;
+  h1 {
+    font-size: 40px;
+  }
+  ul {
+    font-size: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+  }
+  /* border-radius: 50px;
+border-radius: 37px; */
+}
+
+.welcome {
+  margin: 110px auto;
 }
 
 .welcome__title {
@@ -140,17 +176,45 @@ img {
 .welcome__saptitle {
     font-size: 30px;
 }
+
+.box2 {
+  max-width: 550px; 
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  }
+
+  .box3 {
+    max-width: 550px;    
+    padding: 0 15px; 
+   
+    img {
+      width: 100%;
+      height: auto;
+      margin: 0 35px;
+    }
+    }
+    .slick-dots {
+      display: none;
+      visibility: hidden;
+    }
+.boxwrap {
+  margin-left: 300px;
+}
 .meaning {
- 
+  background-color: #8c8a93;
 }
 .meaning__wrap {
-    
+  margin: 100px auto;
+ 
 }
 .meaning__title {
     text-align: center;
     font-size: 40px;
     padding-bottom: 20px;
-    padding-top: 20px;
+
 }
 .meaning__text  {
     font-size: 20px;
@@ -168,20 +232,16 @@ img {
 
 
 .meaning__btn {
-    background: #1f47fb;
-    font-family: inherit;
     padding: 0.6em 1.3em;
     font-weight: 900;
-    font-size: 18px;
-    /* border: 3px solid black; */
+    font-size: 25px;
     border-radius: 0.4em;
-    box-shadow: 0.1em 0.1em;
-    cursor: pointer;
-    margin-left: 500px;
+    cursor: url(./memexaxa.png), pointer;
     text-decoration: none;
-    color: black;
-    
-    
+    background-color: #92b4a7;
+    color: rgba(255, 255, 255, 0.616);
+    margin-bottom: 50px;
+    margin-top: 20px;
   }
   
   .meaning__btn:hover {
@@ -201,4 +261,7 @@ img {
 .slick-next {
   display: none;
   visibility: hidden;
+}
+.type {
+  background-color: #81667a;
 }

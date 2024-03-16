@@ -2,72 +2,85 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body {
-    background-color: #b626b6;
-    color: #ffffff;
-}
-.container {
+    cursor: url(../memeahahha.png), cell;
+  }
+  body {
+    background-color: #8c8a93;
+    color: #00000075;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .container {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-
-}
-
-
-.all__wrap {
-    margin: 0px 200px;
-}
-
-
-.button2 {
-    position: relative;
-    overflow: hidden;
-    border: 1px solid #18181a;
-    color: #18181a;
-    display: inline-block;
-    font-size: 15px;
-    line-height: 15px;
-    padding: 140px 156px 146px;
-    text-decoration: none;
-    cursor: pointer;
-    background: #fff;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-   }
-   
-   .button2:hover{
-    background:  #fffdfd url("../img/visual.png") no-repeat right top;
-    padding: 145px 174px 141px;
-    font-size: 1px;
-   }
-
-   .button2Hover:hover{
-    background:  #ffffff url("../img/audio.png") no-repeat right top;
-
-    font-size: 1px;
-}
-
-.button2t:hover{
-    background:  #ffffff url("../img/fun.png") no-repeat right top;
-    font-size: 1px;
-    background-size: cover;
-}
-
-.button2m:hover{
-    background:  #ffffff url("../img/mixed.png") no-repeat right top;
-    font-size: 1px;
-    
-}
-
-.cards {
+    padding: 0 15px;
+  }
+  
+  .cards {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
- 
-}
+    gap: 40px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .all__wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  h1 {
+    font-size: 65px;
+    color: #000000;
+    margin-top: 50px;
+  }
+  
 .card {
-}
+    width: 390px;
+    height: 354px;
+    background: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 40px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.7s ease-in-out;
+    overflow: hidden;
+    cursor: url(../memexaxa.png), pointer;   
+
+      text-decoration: none;
+      color: #000000;
+      font-size: 75px;
+  
+  }
+  
+.card::before {
+    content: '';
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background-color: #8a53e3;
+    bottom: 0;
+    right: 0;
+    transform: translatey(70px);
+    border-radius: 100%;
+    transition: all 0.7s ease-in-out;
+    
+  }
+  
+.all__memes{
+    z-index: 2;
+  }
+  
+ .card:hover::before {
+    transform: scale(7) translate(-20px);
+  }
+  
+ .card:hover {
+    color: #ffffff;
+  }
+

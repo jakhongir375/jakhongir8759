@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    cursor: url(..//memeahahha.png), cell;
   }
   .container {
     max-width: 1200px;
@@ -9,9 +10,9 @@
     margin: 0 auto;
   }
   body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: blueviolet;
-    
+    color: rgba(255, 255, 255, 0.616);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #81667a;  
   }
 
   /* head */
@@ -28,7 +29,7 @@
 .header__wrap {
     display: flex;
     justify-content: center;
-    background-color:blueviolet;
+    background-color: #81667a;
     /* border-radius:20px; */
     align-items: center;
     padding: 20px 10px;
@@ -46,25 +47,24 @@
     margin-right: 20px;
     /* border: 5px solid black; */
     border-radius: 10px;
-    background-color: #c530eb;
+    background-color: #92b4a7;
     padding: 10px 10px;
-    color: black;
-
-    box-shadow: 0.1em 0.1em;
+    color: rgba(255, 255, 255, 0.616);
+    cursor: url(../memexaxa.png), pointer;
+    /* box-shadow: 0.1em 0.1em; */
 }
 .header__link2 {
     text-decoration: none;
     margin-right: 20px;
     /* border: 5px solid black; */
     border-radius: 10px;
-    background-color:#3c0779;
+    background-color:#b6cb9e;
     padding: 10px 10px;
-    color: black;
+    color: rgba(255, 255, 255, 0.616);
+    cursor: url(../memexaxa.png), pointer;
 
 
-    background: #3c0779;
-    box-shadow: 0.1em 0.1em;
-    
+    /* box-shadow: 0.1em 0.1em; */
 }
 
 .header__link:hover {
@@ -109,6 +109,7 @@
     img {
       width: 100%;
       border-radius: 20px;
+      cursor: url(../memexaxa.png), pointer;
     }
   
     h1 {
@@ -124,7 +125,7 @@
       width: 100%;
       color: #ffffff;
       text-align: center;
-
+      cursor: url(../memexaxa.png), pointer;
       box-shadow: 95px 136px 41px -110px rgba(0,0,0,1) inset;
     }
   
