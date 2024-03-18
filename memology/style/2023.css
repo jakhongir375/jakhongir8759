@@ -20,8 +20,6 @@ header {
   margin-bottom: 50px;
   position: fixed;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
   z-index: 1000;
   width: 100%;
 
@@ -143,3 +141,57 @@ h2 {
   flex-wrap: wrap;
 
 }
+
+
+@media screen and (max-width: 800px) {
+  
+  .wrap {
+    padding: 0 15px;
+    margin: 0 auto; 
+  }
+    h2 {
+      font-size: 35px;
+    }
+    
+    .menu.active {
+      .header__link2 {
+       padding: 30px 70px;
+       font-size: 35px;
+      }
+
+      .header__link {
+        padding: 30px 70px;
+        font-size: 35px;
+       }
+    }
+  h3 {
+  font-size: 35px;
+  }
+
+}
+
+
+@media screen and (max-width: 430px) {
+
+
+
+   h2 {
+    font-size: 25px;
+  }
+
+  .menu.active {
+    .header__link2 {
+     padding: 15px 30px;
+     font-size: 25px;
+    }
+
+    .header__link {
+      padding: 15px 30px;
+      font-size: 25px;
+     }
+  }
+
+  h3 {
+  font-size: 25px;
+  }
+  }

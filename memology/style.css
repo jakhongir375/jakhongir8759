@@ -14,29 +14,23 @@ body {
      max-width: 1200px;
      width: 100%;
      margin: 0 auto;
-   
+    
 }
 
 header {
     margin-bottom: 50px;
+    h1 {
+      font-size: 35px;
+    }
   
 }
 .header__wrap {
     display: flex;
     justify-content: center;
-    /* background-color: #7c1974; */
-    /* border: 5px solid rgb(0, 0, 0); */
+  
     border-radius:20px;
     align-items: center;
     padding: 20px 10px;
-    /* -webkit-box-shadow: 30px 30px 23px 3px #2E272A;
-    box-shadow: 30px 30px 23px 3px #1d181a;
-
-
-    
-    background: #7c1974;
-    box-shadow: 15px 15px 30px rgb(0, 0, 0),
-                -15px -15px 30px rgb(60, 60, 60); */
 }
 .header__link {
     text-decoration: none;
@@ -100,7 +94,7 @@ header {
   /* background-color: #fbff00; */
   padding: 40px 30px;
   margin-bottom: 50px;
-  
+  flex-wrap: wrap;
   /* border-radius: 50px; */
   /* border-radius: 37px; */
   /* -webkit-box-shadow: 30px 30px 23px 3px #2E272A;
@@ -119,6 +113,7 @@ img {
 }
 
 .welcome__box {
+  width: 700px;
   h1 {
     font-size: 95px;
   }
@@ -126,6 +121,7 @@ img {
     font-size: 30px;
     
   }
+  
 }
 .card {
     border-radius: 20px;
@@ -178,36 +174,42 @@ border-radius: 37px; */
 }
 
 .box2 {
-  max-width: 550px; 
+  max-width: 1200px; 
 
   img {
-    width: 100%;
+    width: 300%;
     height: auto;
   }
   }
 
   .box3 {
     max-width: 550px;    
-    padding: 0 15px; 
+    
+    
    
     img {
       width: 100%;
       height: auto;
       margin: 0 35px;
+      cursor: url(./memexaxa.png), pointer;
     }
     }
     .slick-dots {
       display: none;
       visibility: hidden;
+      opacity: 0;
     }
 .boxwrap {
-  margin-left: 300px;
+  /* margin-left: 300px; */
+  margin: 0 auto;
+  width: 50%;
 }
 .meaning {
   background-color: #8c8a93;
+  margin: 100px auto;
 }
 .meaning__wrap {
-  margin: 100px auto;
+
  
 }
 .meaning__title {
@@ -224,6 +226,10 @@ border-radius: 37px; */
 .meaning__textli {
   font-size: 20px;
  padding-bottom: 30px;
+ width: 70%;
+ padding-left: 50px;
+ margin: 0 auto;
+ text-align: left;
  /* text-align: center;
  margin: auto;
  width: 550px; */
@@ -264,4 +270,91 @@ border-radius: 37px; */
 }
 .type {
   background-color: #81667a;
+}
+
+@media screen and (max-width: 800px) {
+      .box3 img {
+        width: 150px;
+        height: 60px;
+      }
+      .welcome {
+        margin: 234px auto;
+      }
+    .type {
+      margin: 186px auto;
+    }
+    .menu.active {
+      .header__link2 {
+       padding: 30px 70px;
+       font-size: 35px;
+      }
+
+      .header__link {
+        padding: 30px 70px;
+        font-size: 35px;
+       }
+    }
+      .box {
+        margin: 0 auto;
+      }
+}
+
+
+@media screen and (max-width: 430px) {
+      .welcome__box {
+        h1 {
+          font-size: 65px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+      .welcome {
+        margin: 181px auto;
+      }
+
+      .menu.active {
+        .header__link2 {
+         padding: 15px 30px;
+         font-size: 25px;
+        }
+  
+        .header__link {
+          padding: 15px 30px;
+          font-size: 25px;
+         }
+      }
+      .card {
+        h3 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+      .box2 {
+        img {
+          
+          width: 300%;
+          height: auto;
+        }
+      }
+      .box3 img {
+          margin: 0 15px;
+          width: 200px;
+          height: 50px;
+        
+      }
+      .meaning__wrap {
+        
+      }
+      .type {
+        margin: 107px auto;
+        h1 {
+          font-size: 30px;
+        }
+        ul {
+          font-size: 20px;
+        }
+      }
 }

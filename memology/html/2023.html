@@ -1,145 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Memology</title>
-    <link rel="stylesheet" href="../style/2023.css">
-</head>
-<body>
-  <header>
-    <div class="container">
+    <link rel="stylesheet" href="../navbar.css" />
+    <link rel="stylesheet" href="../navbar.scss" />
+    <link rel="stylesheet" href="../style/2023.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
         <div class="header__wrap">
-            <img src="" alt="" class="header__img">
+          <img src="" alt="" class="header__img" />
           <h1 class="header__title">Memology</h1>
-          <a href="../index.html" class="header__link2">Home</a>
-          <a href="./2021.html" class="header__link">2021</a>
-          <a href="./2022.html" class="header__link2">2022</a>
-          <a href="./2023.html" class="header__link">2023</a>
+          <div class="menu">
+            <a href="../index.html" class="header__link2 menu__item">Home</a>
+            <a href="./2021.html" class="header__link menu__item">2021</a>
+            <a href="./2022.html" class="header__link2 menu__item">2022</a>
+            <a href="./2023.html" class="header__link menu__item">2023</a>
+          </div>
+          <div class="burger">
+            <span></span>
+          </div>
         </div>
-    </div>
-</header>
+      </div>
+    </header>
 
     <section class="memes">
-        <div class="container">
-          <h2>
-            The most popular memes of 2023:</h2>
-          <div class="wrap">
-            <div class="cards">
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/smurfcat.png" alt="" />
-                    <h1>Smurf cat</h1>
-                  </div>
-                </a>
-
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/monday.png" alt="" />
-                    <h1>Monday left me broken</h1>
-                  </div>
-                </a>
-
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/bopyes.png" alt="" />
-                    <h1>Dop Dop Yes Yes / Brr Skibidi Bop</h1>
-                  </div>
-                </a>
-
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/maxwell.png" alt="" />
-                    <h1>Maxwell the Cat</h1>
-                  </div>
-                </a>
-
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/mrbeast.png" alt="" />
-                    <h1>The Fake MrBeast </h1>
-                  </div>
-                </a>
-
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/bananacat.png" alt="" />
-                    <h1>Sad Banana Cat</h1>
-                  </div>
-                </a>
-
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/johncena.png" alt="" />
-                    <h1>John Cena Dancing</h1>
-                  </div>
-                </a>
-
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/bucklemyshoe.jpg" alt="" />
-                    <h1>1, 2, Buckle My Shoe</h1>
-                  </div>
-                </a>
-
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/skibiditoilet.png" alt="" />
-                    <h1>Skibidi Toilet</h1>
-                  </div>
-                </a>
-
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/freddy.png" alt="" />
-                    <h1>Is That Freddy Fazbear?</h1>
-                  </div>
-                </a>
-
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/joshhutcherson.png" alt="" />
-                    <h1>Josh Hutcherson Whistle</h1>
-                  </div>
-                </a>
-
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/lemmedoit.png" alt="" />
-                    <h1>Let Me Do It For You</h1>
-                  </div>
-                </a>
-
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/tyagi.png" alt="" />
-                    <h1>Что за тяги такие бархатные</h1>
-                  </div>
-                </a>
-
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/sisyphus.png" alt="" />
-                    <h1>Sisyphus Pushing a Rock</h1>
-                  </div>
-                </a>
-
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/lospenguins.png" alt="" />
-                    <h1>Los Pingüinos Me La Van a Mascar</h1>
-                  </div>
-                </a>
-
-                <a href="">
-                  <div class="card">
-                    <img src="../memes/chipicat.png" alt="" />
-                    <h1>Chipi Chipi Chapa Chapa</h1>
-                  </div>
-                </a>
+      <div class="container">
+        <h2>The most popular memes of 2023:</h2>
+        <div class="wrap">
+          <div class="cards">
+            <a href="">
+              <div class="card">
+                <img src="../memes/smurfcat.png" alt="" />
+                <h1>Smurf cat</h1>
               </div>
-            </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="../memes/monday.png" alt="" />
+                <h1>Monday left me broken</h1>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="../memes/bopyes.png" alt="" />
+                <h1>Dop Dop Yes Yes / Brr Skibidi Bop</h1>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="../memes/maxwell.png" alt="" />
+                <h1>Maxwell the Cat</h1>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="../memes/mrbeast.png" alt="" />
+                <h1>The Fake MrBeast</h1>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="../memes/bananacat.png" alt="" />
+                <h1>Sad Banana Cat</h1>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="../memes/johncena.png" alt="" />
+                <h1>John Cena Dancing</h1>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="../memes/bucklemyshoe.jpg" alt="" />
+                <h1>1, 2, Buckle My Shoe</h1>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="../memes/skibiditoilet.png" alt="" />
+                <h1>Skibidi Toilet</h1>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="../memes/freddy.png" alt="" />
+                <h1>Is That Freddy Fazbear?</h1>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="../memes/joshhutcherson.png" alt="" />
+                <h1>Josh Hutcherson Whistle</h1>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="../memes/lemmedoit.png" alt="" />
+                <h1>Let Me Do It For You</h1>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="../memes/tyagi.png" alt="" />
+                <h1>Что за тяги такие бархатные</h1>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="../memes/sisyphus.png" alt="" />
+                <h1>Sisyphus Pushing a Rock</h1>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="../memes/lospenguins.png" alt="" />
+                <h1>Los Pingüinos Me La Van a Mascar</h1>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="card">
+                <img src="../memes/chipicat.png" alt="" />
+                <h1>Chipi Chipi Chapa Chapa</h1>
+              </div>
+            </a>
           </div>
-      </section>
-</body>
+        </div>
+      </div>
+    </section>
+
+    <script src="../navbar.js"></script>
+  </body>
 </html>

@@ -10,7 +10,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .container {
-    max-width: 1200px;
+    max-width: 1300px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
@@ -23,11 +23,13 @@
     gap: 40px;
     margin: 0 auto;
     margin-top: 100px;
+    flex-wrap: wrap;
   }
   .all__wrap {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center;  
+        
     }
   h1 {
     font-size: 65px;
@@ -84,3 +86,17 @@
     color: #ffffff;
   }
 
+
+@media screen and (max-width: 430px) {
+    h1 {
+      font-size: 35px;
+    }
+    .card {
+      width: 290px;
+      height: 254px;
+    }
+
+    p {
+      font-size: 50px;
+    }
+}
