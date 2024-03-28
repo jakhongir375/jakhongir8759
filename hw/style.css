@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 200px;
+    max-width: 1400px;
+   
+}
+
+.box {
+    max-width: 300px;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    padding: 30px;
+    
+   
+     background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center;
+    color: white;
+    transition: all 0.4s;
+    box-shadow: 1px 1px 50px 50px rgba(0, 0, 0, 0.432) inset;
+    
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: end;
+
+    &:hover {
+        background-size: 150%;
+        box-shadow: 1px 1px 50px 50px rgba(0, 0, 0, 0.1) inset;
+    }
+    }
