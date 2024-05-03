@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+
+    .box {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 20px 60px;
+        border-radius: 10px;
+        gap: 10px;
+        border: 1px solid rgb(196, 196, 196);
+        a {
+            border: 1px solid rgb(196, 196, 196);
+            padding: 10px 50px;
+            border-radius:10px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px 30px;
+    border-radius: 10px;
+    gap: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    a {
+        width: 100%;
+        display: flex;
+        flex: start;
+    }
+    input {
+        width: 300px;
+        height: 30px;
+        padding: 5px;
+    }
+
+    button {
+        width: 300px;
+        height: 30px;
+    }
+}
+.box2 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.login {
+   padding-left: 40px;
+    border-radius:10px;
+}
+.login2 {
+    padding-left: 90px;
+     border-radius:10px;
+ }
