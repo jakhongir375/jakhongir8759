@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: url(lepestok.png), cell;
+    
+}
+body {
+    background-image: url(img/sakura.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header {
+    background-color:  rgb(163, 142, 192);
+    border: none;
+    
+    
+}
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    color:gainsboro;
+}
+
+.header_title {
+    margin: 0;
+    font-size: 24px;
+}
+
+.box {
+    display: flex;
+    gap: 30px;
+    
+
+    img {
+        width: 40px;
+        height: 40px;
+        border: none;
+        background-color: aliceblue;
+        border-radius: 10px;
+        padding: 5px 5px;
+    }
+
+
+}
+.header_healty {
+    position: relative;
+  }
+  
+  .header_healty::after {
+    content: "Healthy routine";
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(71, 71, 71, 0.8);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+    transition: all 1s;
+    font-size: 10px;
+  }
+  
+  .header_healty:hover::after {
+    opacity: 1;
+  }
+
+
+  .header_random {
+    position: relative;
+  }
+  
+  .header_random::after {
+    content: "Food randomizer";
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:  rgba(71, 71, 71, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+    transition: all 1s;
+    font-size: 10px;
+  }
+  
+  .header_random:hover::after {
+    opacity: 1;
+  }
+
+  .header_home {
+    position: relative;
+  }
+  
+  .header_home::after {
+    content: "Home";
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:  rgba(71, 71, 71, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+    transition: all 1s;
+    font-size: 10px;
+  }
+  
+  .header_home:hover::after {
+    opacity: 1;
+  }
+
+
+.recipe {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.recipe_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+  .recipe_card {
+    display: flex;
+    color: gainsboro;
+    
+    img {
+      width: 200px;
+      height: 150px;
+    }
+  }
+.recipe_box {
+  border: none;
+  background-color: rgb(163, 142, 192);  
+ padding: 10px ;
+ padding-right: 100px;
+p {
+  padding-bottom: 40px;
+}
+ a {
+  border: none;
+  text-decoration: none;
+  color: gainsboro;
+ 
+ }
+}
+
+
