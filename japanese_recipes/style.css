@@ -7,13 +7,14 @@
 }
 body {
   background-image: url(img/sakura.png);
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
   @media (max-width:1032px) {
-  background-image: url(img/sakura2.png);
+  background-image: url(img/sakura2.jpg);
     
   }
 }
@@ -35,7 +36,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    color:gainsboro;
+   color: rgb(255, 255, 255);
+
+
+   
 }
 
 .header_title {
@@ -134,7 +138,29 @@ header {
   .header_home:hover::after {
     opacity: 1;
   }
+.describe {
+  margin-top: 100px;
+}
+  .describe_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+  }
+.describe_box {
+  background-color: rgb(163, 142, 192);
+  padding: 20px 20px;
+  text-align: center;
+  max-width: 900px;
+  border: none;
+  border-radius: 10px;
+  h1 {
+    color: rgb(255, 255, 255);
+  }
+  p {
+    color: rgb(233, 233, 233);
+  }
+}
 
 .recipe {
   margin-top: 100px;
@@ -146,29 +172,53 @@ header {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
   gap: 40px;
+
+    
+ 
+
 }
   .recipe_card {
     display: flex;
-    color: gainsboro;
+
     
     img {
-      width: 200px;
+      /* width: 200px; */
       height: 150px;
+      width: 100%;
     }
+  }
+
+  .bigcard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+ background: rgba( 220, 202, 237, 0.5 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
 .recipe_box {
   border: none;
   background-color: rgb(163, 142, 192);  
  padding: 10px ;
  padding-right: 100px;
+width: 100%;
+ h1 {
+  color: rgb(255, 255, 255);
+ }
 p {
   padding-bottom: 40px;
+   color: rgb(233, 233, 233);
 }
  a {
   border: none;
   text-decoration: none;
-  color: gainsboro;
+  color: rgb(233, 233, 233);
  
  }
 }
@@ -177,8 +227,8 @@ p {
 
   padding: 10px 20px;
   font-size: 20px;
-  color: gainsboro;
-  background-color: white;
+  color: rgb(255, 255, 255);
+  background-color:rgb(163, 142, 192);
   border: 1px solid black;
   text-decoration: none;
 }
