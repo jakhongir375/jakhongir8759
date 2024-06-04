@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meal Randomizer</title>
+<link rel="stylesheet" href="navind.css">
+<link rel="stylesheet" href="random.css">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+  <header id="first__section">
+    <div class="container_header">
+        <div class="header_wrap">
+            <a href="index.html" class="header_title">Япония на тарелке</a>
+            <div class="menu">
+                <a href="healthy.html" class="header_healty menu__item" ><img src="img/healthy.png" alt=""></a>
+                <div class="header_type menu__item">
+               <img src="type.png" alt="" >
+                <select name="" id="type__food" onchange="location = this.value;">
+                    <option value="">типы блюд</option>
+                    <option value="zakuski.html">закуски</option>
+                    <option value="osnova.html">основные блюда</option>
+                    <option value="desert.html">десерты</option>
+                 </select>
+                </div>
+                <a href="random.html" class="header_random menu__item"><img src="img/random.png" alt=""></a>
+                <a href="index.html" class="header_home menu__item"><img src="img/home.png" alt=""></a>
+            </div>
+            <div class="burger">
+                <span></span>
+            </div>
+        </div>
+    </div>
+   </header>
+
+
+
+<div class="container">
+<h1>Рандомизатор блюд</h1>
+  <div class="block_1">
+    <h2></h2>
+  </div>
+
+  <div class="block_2">
+    <select id="mealSelect">
+        <option value="breakfast">Завтрак</option>
+      <option value="lunch">Обед</option>
+       <option value="dinner">Ужин</option>
+    </select>
+    <button id="showMealsBtn">Показать блюда</button>
+  </div>
+</div>
+
+<div class="quote-card" style="display: none;">
+  <p class="quote-text"></p>
+</div>
+
+<!-- <div>
+    <label>
+        <input type="radio" name="mealType" value="breakfast" checked> Breakfast
+    </label>
+    <label>
+        <input type="radio" name="mealType" value="lunch"> Lunch
+    </label>
+    <label>
+        <input type="radio" name="mealType" value="dinner"> Dinner
+    </label>
+</div>
+<button id="generateButton">Generate Food</button> -->
+<div id="cardContainer">
+
+</div>
+
+
+
+
+<script src="script.js" src="burg.js"></script>
+</body>
+</html>
